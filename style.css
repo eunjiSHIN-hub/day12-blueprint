@@ -1,0 +1,322 @@
+body {
+    background-color: black;
+    display: flex;
+    position: absolute;
+  }
+  .page__one {
+    width: 400px;
+    height: 900px;
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 10px;
+  }
+  .statusbar {
+    margin-top: 20px;
+  }
+  .fa-long-arrow-alt-left {
+    margin-left: 20px;
+  }
+  .fa-search {
+    margin-left: 330px;
+  }
+  .main__image {
+    display: flex;
+    margin-left: 150px;
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 2px orange;
+  }
+  .main__title {
+    margin-left: 100px;
+    font-size: 25px;
+    margin-top: 30px;
+  }
+  .main__sub {
+    margin-left: 160px;
+    font-size: 15px;
+    color: gray;
+  }
+  .main__button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .main__button__shuffle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 110px;
+    height: 40px;
+    background-color: black;
+    border-radius: 30px;
+  }
+  .main__button__heart {
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 40px;
+    box-shadow: 2px 2px 2px gray;
+    border-radius: 30px;
+  }
+  .main__button__heart__num {
+    margin-left: 5px;
+  }
+  .first {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 370px;
+    height: 80px;
+    align-items: center;
+    box-shadow: 2px 2px 2px gray;
+    border-radius: 10px;
+  }
+  .first__image {
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    margin-left: 30px;
+  }
+  .first__text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    justify-content: center;
+  }
+  .first__text__name {
+    font-size: 15px;
+    color: gray;
+  }
+  .first__text__title {
+    font-size: 20px;
+  }
+  .first__button .fa-ellipsis-v {
+    color: gray;
+    margin-left: 110px;
+  }
+  .second {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 370px;
+    height: 80px;
+    align-items: center;
+    box-shadow: 2px 2px 2px gray;
+    border-radius: 10px;
+  }
+  .second__image {
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    margin-left: 30px;
+  }
+  .second__text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    justify-content: center;
+  }
+  .second__text__name {
+    font-size: 15px;
+    color: gray;
+  }
+  .second__text__title {
+    font-size: 20px;
+  }
+  .fa-ellipsis-v {
+    color: gray;
+    margin-left: 120px;
+  }
+  .third {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 370px;
+    height: 80px;
+    align-items: center;
+    box-shadow: 2px 2px 2px gray;
+    border-radius: 10px;
+  }
+  .third__image {
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    margin-left: 30px;
+  }
+  .third__text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    justify-content: center;
+  }
+  .third__text__name {
+    font-size: 15px;
+    color: gray;
+  }
+  .third__text__title {
+    font-size: 20px;
+  }
+  .fa-ellipsis-v {
+    color: gray;
+    margin-left: 120px;
+  }
+  .fourth {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 370px;
+    height: 80px;
+    align-items: center;
+    box-shadow: 2px 2px 2px gray;
+    border-radius: 10px;
+  }
+  .fourth__image {
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    margin-left: 30px;
+  }
+  .fourth__text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    justify-content: center;
+  }
+  .fourth__text__name {
+    font-size: 15px;
+    color: gray;
+  }
+  .fourth__text__title {
+    font-size: 20px;
+  }
+  .fa-ellipsis-v {
+    color: gray;
+    margin-left: 120px;
+  }
+  .playbar {
+    margin-left: 15px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    width: 370px;
+    height: 70px;
+    background-color: black;
+    border-radius: 40px;
+  }
+  .playbar__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
+  }
+  .playbar__text__name {
+    color: gray;
+    font-size: 15px;
+  }
+  .playbar__text__title {
+    color: white;
+    font-size: 20px;
+  }
+  .fa-step-backward {
+    color: white;
+    margin-left: 80px;
+  }
+  .fa-pause {
+    color: white;
+    margin-left: 30px;
+  }
+  .fa-step-forward {
+    color: white;
+    margin-left: 30px;
+  }
+  .page__two {
+    width: 400px;
+    height: 900px;
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 100px;
+  }
+  .statusbar__two {
+    margin-top: 20px;
+  }
+  .statusbar__two .fa-long-arrow-alt-left {
+    margin-left: 20px;
+  }
+  .statusbar__two .fa-ellipsis-v {
+    margin-left: 340px;
+  }
+  .page__two__image {
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    margin-top: 100px;
+    margin-left: 55px;
+    box-shadow: 3px 3px 3px orange;
+  }
+  .page__two__title {
+    margin-top: 50px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  .page__two__name {
+    display: flex;
+    justify-content: center;
+    color: gray;
+    font-size: 15px;
+  }
+  .time {
+    margin-top: 50px;
+  }
+  .time__first {
+    color: gray;
+    margin-left: 50px;
+  }
+  .time__second {
+    color: gray;
+    margin-left: 240px;
+  }
+  .music__range {
+    inline-size: 300px;
+    margin-left: 50px;
+    margin-top: 5px;
+  }
+  .page__two__iconbar {
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+  }
+  .page__two__iconbar .fa-redo-alt {
+    color: gray;
+    margin-left: 60px;
+    position: absolute;
+  }
+  .page__two__iconbar .fa-step-backward {
+    color: black;
+    padding: 30px;
+  }
+  .fa-play-background {
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+  }
+  .fa-play {
+    color: white;
+  }
+  .page__two__iconbar .fa-step-forward {
+    color: black;
+  }
+  .fa-random {
+    color: gray;
+    padding: 30px;
+  }
